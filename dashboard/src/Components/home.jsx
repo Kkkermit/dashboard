@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../Styles/home.css';
-import logo from '../Assets/ebayLogo.svg';
+import logo from '../Assets/Images/js.png';
 import Loading from './loadingScreen';
 import config from '../config/homeSettings.json';
 import Selling from '../Assets/selling.svg';
