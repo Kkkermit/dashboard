@@ -62,7 +62,7 @@
     }
 
     .home-image-logo {
-        width: 250px;
+        width: 150px;
     }
 
     #home-para {
@@ -83,7 +83,7 @@
     font-weight: 500;
     font-size: 24px;
     text-transform: uppercase;
-    border: 7px solid var(--color-web-foreground);
+    border: 3px solid var(--color-gray-100);
     border-radius: 30px;
     padding: 20px;
     background-color: #202127;
