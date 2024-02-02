@@ -1,0 +1,69 @@
+{
+    "header": [
+        "- JESNEAKERS -"
+    ],
+
+    "paragraph": [
+        "Here, you'll find links to my Ebay / reselling account where you can view my products for sale"
+    ], 
+
+    "selling": {
+        "intro": [
+            "Selling a range of hype sneakers."
+        ],
+
+        "sellingPara": [
+            "From Nike Dunks to Yeezy's and Off White, I sell all i can get my hands on so check out my ebay to see the selection!"
+        ]
+    },
+
+    "products": {
+        "intro": [
+            "We currently stock nike products such as dunks ands jordans."
+        ],
+
+        "productPara": [
+            "New Products are added when ever bought and updated and monitored according to market price!"
+        ]
+    },
+
+    "pricing": {
+        "intro": [
+            "We take pride in the way we price."
+        ], 
+
+        "pricingPara": [
+            "We price our products depending on the market on how it fluctuates with condition and size taken into account."
+        ]
+    },
+
+    "platforms": {
+        "intro": [
+            "Currently only trading across one platform."
+        ],
+
+        "platformPara": [
+            "We only, at this time, sell on our Ebay platform however, we're open to expanding to new platforms in the future so keep an eye open..."
+        ]
+    },
+
+    "shipping": {
+        "intro": [
+            "Fast delivery times shipping from UK!"
+        ],
+
+        "shippingPara": [
+            "We're proud to tell you we can guarantee 1-2 days dispatch time!"
+        ]
+    },
+
+    "customer": {
+        "intro": [
+            "With 100% positive feedback, we strive to bring the best customer support!"
+        ],
+
+        "customerPara": [
+            "With over 35+ reviews on our services, we ensure to bring the best of the best to our customers!"
+        ]
+    }
+}

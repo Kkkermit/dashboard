@@ -1,14 +1,15 @@
 .home-header-container {
     text-align: center;
     margin-top: 10rem;
+    font-family: Fjalla;
 }
 
 .home-header {
     font-weight: 900;
     font-size: 48px;
-    color: var(--color-gray-100);
+    color: var(--color-web-foreground);
     position: relative;
-    background: linear-gradient(45deg, var(--color-gray-100), var(--color-gray-200));
+    background: linear-gradient(45deg, var(--color-web-foreground), var(--color-gray-200));
     -webkit-background-clip: text;
     background-clip: text;
     transition: all 0.3s ease;
@@ -24,7 +25,7 @@
     height: 5px;
     bottom: 0;
     left: 0;
-    background-color: var(--color-gray-100);
+    background-color: var(--color-web-foreground);
     transition: width 0.3s ease;
 }
 
@@ -43,11 +44,12 @@
     margin-top: 4rem;
     transition: transform 0.4s ease-in-out, filter 0.3s;
     will-change: filter;
+    cursor: pointer;
+    filter: drop-shadow(var(--color-blue-500) 0 0 2rem);
 }
 
 .home-image-logo:hover {
     transform: scale(1.3);
-    filter: drop-shadow(var(--color-blue-500) 0 0 2rem);
 }
 
 @media (max-width: 768px) {
@@ -59,5 +61,199 @@
 
     .home-image-logo {
         width: 250px;
+    }
+
+    #home-para {
+        width: 200px;
+    }
+}
+
+.home-para-container {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-para {
+    color: var(--color-web-foreground);
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: 7px solid var(--color-web-foreground);
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #202127;
+    margin-top: 5rem;
+    transition: transform 0.3s ease-in-out;
+    cursor: text;
+}
+
+#home-para:hover {
+    transform: scale(1.1);
+}
+
+.home-table-container {
+    font-family:monospace;
+}
+
+.home-table-logo {
+    border: 1px solid transparent;
+    background-color: #32363f;
+    border-radius: 17px;
+    height: 100px;
+    padding: 2px;
+}
+
+.home-art-h1 {
+    color: #bfbfc2;
+    font-size: 20px;
+}
+
+.home-art-h2 {
+    color: #9b9b9c;
+    font-size: 18px;
+}
+
+.home-row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-table-1 {
+    margin-top: 5rem;
+    border: 1px solid transparent;
+    background-color: #202127;
+    width: 400px;
+    border-radius: 17px;
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-table-1:hover {
+    transform: scale(1.1);
+}
+
+.home-table-2 {
+    margin-top: 5rem;
+    border: 1px solid transparent;
+    background-color: #202127;
+    width: 400px;
+    border-radius: 17px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-table-2:hover {
+    transform: scale(1.1);
+}
+
+.home-table-3 {
+    margin-top: 5rem;
+    border: 1px solid transparent;
+    background-color: #202127;
+    width: 400px;
+    border-radius: 17px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-table-3:hover {
+    transform: scale(1.1);
+}
+
+.home-table-4 {
+    margin-top: 5rem;
+    border: 1px solid transparent;
+    background-color: #202127;
+    width: 400px;
+    border-radius: 17px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-table-4:hover {
+    transform: scale(1.1);
+}
+
+.home-table-5 {
+    margin-top: 5rem;
+    border: 1px solid transparent;
+    background-color: #202127;
+    width: 400px;
+    border-radius: 17px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-table-5:hover {
+    transform: scale(1.1);
+}
+
+.home-table-6 {
+    margin-top: 5rem;
+    border: 1px solid transparent;
+    background-color: #202127;
+    width: 400px;
+    border-radius: 17px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-table-6:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .home-table-1 {
+        height: 400px;
+    }
+
+    .home-table-2 {
+        height: 400px;
+    }
+
+    .home-table-3 {
+        height: 400px;
+    }
+
+    .home-table-4 {
+        height: 400px;
+    }
+
+    .home-table-5 {
+        height: 400px;
+    }
+
+    .home-table-6 {
+        height: 400px;
     }
 }
