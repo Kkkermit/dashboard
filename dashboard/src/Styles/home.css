@@ -41,13 +41,14 @@
 }
 
 .home-image-logo {
-    margin-top: 4rem;
+    margin-top: 5rem;
     transition: transform 0.4s ease-in-out, filter 0.3s;
     will-change: filter;
     cursor: pointer;
     filter: drop-shadow(var(--color-blue-500) 0 0 2rem);
     border-radius: 300px;
     padding: 50px;
+    width: 300px;
 }
 
 .home-image-logo:hover {
