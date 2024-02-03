@@ -1,7 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import '../Styles/backgroundAnimation.css';
+import LoadingDoc from './loadingScreenDoc';
 
 function Background() {
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setIsLoading(false)
+        }, 4000)
+    }, [])
+
     const numberOfDrops = 17;
 
     const renderRaindrops = () => {
@@ -15,9 +24,13 @@ function Background() {
     };
 
     return(
+        <>
+        {isLoading ? <LoadingDoc /> :
         <div className='rain-animation-container'>
             {renderRaindrops()}
         </div>
+        }
+        </>
     );
 };
 
