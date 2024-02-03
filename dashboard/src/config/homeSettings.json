@@ -7,6 +7,10 @@
         "Here you'll find links to my Ebay / reselling account where you can view my products for sale"
     ], 
 
+    "reviewHeader": [
+        "What our customers say!"
+    ],
+
     "selling": {
         "intro": [
             "Selling a range of hype sneakers."
@@ -64,6 +68,40 @@
 
         "customerPara": [
             "With over 35+ reviews on our services, we ensure to bring the best of the best to our customers!"
+        ]
+    }, 
+
+    "ebayReviews": {
+        "intro1": [
+            "Nike Dunk Low x Off-White lot 36 | UK Size 10 | ✅ Free Delivery 🚚"
+        ],
+
+        "review1": [
+            "Shipped out got them within 2 days of ordering great seller would 100% recommend."
+        ],
+
+        "intro2": [
+            "Nike Air Max 90 Triple White Size 9."
+        ],
+
+        "review2": [
+            "Item as described good seller fast shipping!"
+        ],
+
+        "intro3": [
+            "AAPE* by a bathing ape Hoodie L ***Read description"
+        ],
+
+        "review3": [
+            "Excellent item super swift delivery & excellent comms"
+        ],
+
+        "intro4": [
+            "AAPE By A Bathing Ape Black Joggers XL"
+        ],
+
+        "review4": [
+            "Fast delivery and just as described."
         ]
     }
 }
