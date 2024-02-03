@@ -67,7 +67,7 @@
     }
 
     #home-para {
-        width: 200px;
+        width: 250px;
     }
 }
 
@@ -264,6 +264,7 @@
 .home-container {
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out forwards;
+    z-index: 1;
 }
 
 @keyframes fadeIn {
