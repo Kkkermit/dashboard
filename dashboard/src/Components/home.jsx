@@ -42,6 +42,18 @@ const RIntro3 = config.ebayReviews.intro3;
 const Reviews3 = config.ebayReviews.review3;
 const RIntro4 = config.ebayReviews.intro4;
 const Reviews4 = config.ebayReviews.review4;
+const RIntro5 = config.ebayReviews.intro5;
+const Reviews5 = config.ebayReviews.review5;
+const RIntro6 = config.ebayReviews.intro6;
+const Reviews6 = config.ebayReviews.review6;
+const RIntro7 = config.ebayReviews.intro7;
+const Reviews7 = config.ebayReviews.review7;
+const RIntro8 = config.ebayReviews.intro8;
+const Reviews8 = config.ebayReviews.review8;
+const RIntro9 = config.ebayReviews.intro9;
+const Reviews9 = config.ebayReviews.review9;
+const RIntro10 = config.ebayReviews.intro10;
+const Reviews10 = config.ebayReviews.review10;
 
 
 function Home() {
@@ -157,8 +169,8 @@ function Home() {
                     <header id='home-blank-doc'></header>
                 </div>
             </div>
-            <div className='home-para-container'>
-                <header id='home-para'>{ReviewHeader}</header>
+            <div className='home-para-container-review'>
+                <header id='home-para-review'>{ReviewHeader}</header>
             </div>
             <ul className='has-scrollbar'>
             <div className='home-reviews-container'>
@@ -203,6 +215,72 @@ function Home() {
                         <div className='home-reviews-box'>
                             <h1 className='home-art-h1'>{RIntro4}</h1>
                             <h2 className='home-art-h2'>{Reviews4}</h2>
+                        </div>
+                    </article>
+                </div>
+                <div className='home-reviews'>
+                    <article className='home-reviews-article-5'>
+                        <div className='home-reviews-img'>
+                            <img id='home-reviews-img' src={EbayLogo} alt="Ebay Logo" />
+                        </div>
+                        <div className='home-reviews-box'>
+                            <h1 className='home-art-h1'>{RIntro5}</h1>
+                            <h2 className='home-art-h2'>{Reviews5}</h2>
+                        </div>
+                    </article>
+                </div>
+                <div className='home-reviews'>
+                    <article className='home-reviews-article-6'>
+                        <div className='home-reviews-img'>
+                            <img id='home-reviews-img' src={EbayLogo} alt="Ebay Logo" />
+                        </div>
+                        <div className='home-reviews-box'>
+                            <h1 className='home-art-h1'>{RIntro6}</h1>
+                            <h2 className='home-art-h2'>{Reviews6}</h2>
+                        </div>
+                    </article>
+                </div>
+                <div className='home-reviews'>
+                    <article className='home-reviews-article-6'>
+                        <div className='home-reviews-img'>
+                            <img id='home-reviews-img' src={EbayLogo} alt="Ebay Logo" />
+                        </div>
+                        <div className='home-reviews-box'>
+                            <h1 className='home-art-h1'>{RIntro7}</h1>
+                            <h2 className='home-art-h2'>{Reviews7}</h2>
+                        </div>
+                    </article>
+                </div>
+                <div className='home-reviews'>
+                    <article className='home-reviews-article-6'>
+                        <div className='home-reviews-img'>
+                            <img id='home-reviews-img' src={EbayLogo} alt="Ebay Logo" />
+                        </div>
+                        <div className='home-reviews-box'>
+                            <h1 className='home-art-h1'>{RIntro8}</h1>
+                            <h2 className='home-art-h2'>{Reviews8}</h2>
+                        </div>
+                    </article>
+                </div>
+                <div className='home-reviews'>
+                    <article className='home-reviews-article-6'>
+                        <div className='home-reviews-img'>
+                            <img id='home-reviews-img' src={EbayLogo} alt="Ebay Logo" />
+                        </div>
+                        <div className='home-reviews-box'>
+                            <h1 className='home-art-h1'>{RIntro9}</h1>
+                            <h2 className='home-art-h2'>{Reviews9}</h2>
+                        </div>
+                    </article>
+                </div>
+                <div className='home-reviews'>
+                    <article className='home-reviews-article-6'>
+                        <div className='home-reviews-img'>
+                            <img id='home-reviews-img' src={EbayLogo} alt="Ebay Logo" />
+                        </div>
+                        <div className='home-reviews-box'>
+                            <h1 className='home-art-h1'>{RIntro10}</h1>
+                            <h2 className='home-art-h2'>{Reviews10}</h2>
                         </div>
                     </article>
                 </div>

@@ -292,10 +292,36 @@
     width: 1350px;
 }
 
+.home-para-container-review {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+#home-para-review {
+    color: var(--color-web-foreground);
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: 3px solid var(--color-gray-100);
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #202127;
+    margin-top: 5rem;
+    transition: transform 0.3s ease-in-out;
+    cursor: text;
+}
+
+#home-para-review:hover {
+    transform: scale(1.1);
+}
 
 .home-reviews-container {
     font-family: monospace;
-    margin-top: 10rem;
+    margin-top: 7.5rem;
     display: flex;
 }
 
@@ -311,6 +337,7 @@
     margin: 0 0;
     padding: 25px 15px;
     padding-bottom: 35px;
+    transition: 300ms;
 }
 
 .has-scrollbar::-webkit-scrollbar {
@@ -319,14 +346,16 @@
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
-    background: #1616f3;
+    background: #202127;
     border-radius: 5px;
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-    background: #5a5ab9;
+    background: #32363f;
     border-radius: 5px;
 }
+
+.has-scrollbar::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
 
 .has-scrollbar::-webkit-scrollbar-button { width: 20px; }
 
@@ -357,6 +386,11 @@
     height: 300px;
     flex: 0 0 auto; 
     margin-left: 11px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-reviews-article-1:hover {
+    transform: scale(1.1);
 }
 
 .home-reviews-article-2 {
@@ -371,6 +405,11 @@
     height: 300px;
     flex: 0 0 auto;
     margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-reviews-article-2:hover {
+    transform: scale(1.1);
 }
 
 .home-reviews-article-3 {
@@ -385,6 +424,11 @@
     height: 300px;
     flex: 0 0 auto;
     margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-reviews-article-3:hover {
+    transform: scale(1.1);
 }
 
 .home-reviews-article-4 {
@@ -399,4 +443,123 @@
     height: 300px;
     flex: 0 0 auto;
     margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-reviews-article-4:hover {
+    transform: scale(1.1);
+}
+
+.home-reviews-article-5 {
+    margin-top: 5rem;
+    border: 1px solid transparent;
+    background-color: #202127;
+    width: 300px;
+    border-radius: 17px;
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 300px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-reviews-article-5:hover {
+    transform: scale(1.1);
+}
+
+.home-reviews-article-6 {
+    margin-top: 5rem;
+    border: 1px solid transparent;
+    background-color: #202127;
+    width: 300px;
+    border-radius: 17px;
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 300px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-reviews-article-6:hover {
+    transform: scale(1.1);
+}
+
+.home-reviews-article-7 {
+    margin-top: 5rem;
+    border: 1px solid transparent;
+    background-color: #202127;
+    width: 300px;
+    border-radius: 17px;
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 300px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-reviews-article-7:hover {
+    transform: scale(1.1);
+}
+
+.home-reviews-article-8 {
+    margin-top: 5rem;
+    border: 1px solid transparent;
+    background-color: #202127;
+    width: 300px;
+    border-radius: 17px;
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 300px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-reviews-article-8:hover {
+    transform: scale(1.1);
+}
+
+.home-reviews-article-9 {
+    margin-top: 5rem;
+    border: 1px solid transparent;
+    background-color: #202127;
+    width: 300px;
+    border-radius: 17px;
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 300px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-reviews-article-9:hover {
+    transform: scale(1.1);
+}
+
+.home-reviews-article-10 {
+    margin-top: 5rem;
+    border: 1px solid transparent;
+    background-color: #202127;
+    width: 300px;
+    border-radius: 17px;
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 300px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-reviews-article-10:hover {
+    transform: scale(1.1);
 }
